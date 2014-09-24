@@ -1,0 +1,123 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    margin-bottom: -1px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 450px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 450px;
+  background-color: #666;
+}
+.carousel-inner > .item > img {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: 100%;
+	overflow:hidden;
+}
+
+/* Image for home page */
+.home-image-container > .img-responsive {
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow:hidden;
+}
+
+.thumbnail{
+   margin: 0 0 0 0 ;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+.placeholders {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 10px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+ */
+ 
+/*
+ * Photo 
+.image-container {height: 180px; width: 240px; position: relative; float: left; margin: 0 10px 10px 0; background-color: #666; border: 3px solid #fff; overflow: hidden;}
+*/
+
+/*
+ * blog bar & footer
+ */
+.title-color {
+  background-color: #428bca;
+}
+
+  
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.btn-primary {
+  .buttonBackground(#666, #777);
+}
+
+
